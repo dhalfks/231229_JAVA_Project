@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel</h1>
+    <ul>
+        <li><a id="home" onclick="clickCity(this)">Home</a></li>
+        <li><a id="seoul" onclick="clickCity(this)">Seoul</a></li>
+        <li><a id="tokyo" onclick="clickCity(this)">Tokyo</a></li>
+        <li><a id="paris" onclick="clickCity(this)">Paris</a></li>
+    </ul>
+    <img src="../image/home.jpg" alt="home" id="cityImg">
+    <script>
+        // function clickCity(e){
+        //     console.log(e);
+        //     let idVal = e.id;
+        //     document.getElementById('cityImg').src=
+        //     `../image/${idVal}.jpg`;
+        // }
+
+        const clickCity = (e)=>{
+            console.log(e);
+            let idVal = e.id;
+            document.getElementById('cityImg').src=
+            `../image/${idVal}.jpg`;
+        }
+    </script>
+</body>
+</html>

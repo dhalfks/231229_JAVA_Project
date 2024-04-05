@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Noto_Sans_KR;
+    src: url(../../../font/Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf);
+}
+body{
+    font-family: Noto_Sans_KR; 
+    color: rgb(32, 32, 32);
+}
+.wrap{
+    width: 100%;
+    min-width: 1200px;
+}
+.inner{
+    width: 1170px;
+    margin: auto;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+header{
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+header>.inner{
+    height: 115px;
+    position: relative;
+    /* background-color: bisque; */
+}
+header>.inner>h1{
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+header>.inner>.top-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+header>.inner>.top-menu>li{
+    margin: 10px 20px;
+}
+.before ::before{
+    content: " | ";
+    color: rgb(129, 129, 129);
+}
+.bold{
+    font-weight: bold;
+}
+header>.inner>.nav>ul{
+    display: flex;
+    height: 79px;
+    justify-content: center;
+}
+header>.inner>.nav>ul>li{
+    margin: 0 40px;
+}
+header>.inner>.nav>ul>li>a{
+    font-size: large;
+    font-weight: 700;
+    line-height: 79px;
+}
+header>.inner>.nav>ul>li>a:hover{
+    color: green;
+}
+section{
+    width: 100%;
+    height: 725px;
+    background-color: blueviolet;
+}   
+main>.con-box{
+    width: 100%;
+}
+main>.con-box>.inner{
+    padding: 120px 0;
+}
+main .con1{
+    background-color: brown;
+}
+main .con1 .inner{
+    height: 100px;
+    background-color: chocolate;
+}
+main .con2{
+    background-color: rgb(219, 140, 140);
+}
+main .con2 .inner{
+    height: 890px;
+    background-color: rgb(240, 190, 154);
+}
+main .con3{
+    background-color: rgb(55, 24, 24);
+}
+main .con3 .inner{
+    height: 715px;
+    background-color: rgb(69, 43, 25);
+}
+main .con4{
+    background-color: brown;
+}
+main .con4 .inner{
+    height: 800px;
+    background-color: chocolate;
+}
+footer{
+    background-color: cadetblue;
+}
+footer>.inner{
+    height: 320px;
+    background-color: bisque;
+}
